@@ -1,4 +1,5 @@
-* {
+ /* selectores */
+* { 
 	font-family: Arial;
 }
 h1 {
@@ -8,7 +9,17 @@ h1 {
 nav {
 	margin: 35px 50px 0px 0px;
 }
-.a-nav {
+input {
+	width: 200px;
+	padding: 13px;
+	font-size: 12px;
+	margin: 10px;
+	border-radius: 10px;
+	border:none;
+	background-color: #11090E;
+}
+ /* Clases */
+.a-nav {  /* css header */
 	padding: 0px 10px;
 }
 .bordeabajo {
@@ -22,7 +33,7 @@ nav {
 .prop-text {
 	padding: 40px;
 }
-.letragrande {
+.letragrande {  /* primer seccion */
 	font-size: 30px;
 	padding: 15px 0px;
 }
@@ -39,7 +50,7 @@ nav {
 	padding: 8px;
 	margin: 10px;
 }
-.prop-boton2 {
+.prop-boton2 {  /* css segunda seccion */
 	padding: 10px 30px;
 	margin: 70px 43%;
 }
@@ -53,7 +64,7 @@ nav {
 	margin-bottom: 10px;
 	font-size: 13px;
 }
-.text-aba {
+.text-aba {  /* css tercer seccion */
 	font-size: 16px;
 	margin:50px 15px;
 }
@@ -61,21 +72,12 @@ nav {
 	width: 100px;
 	margin:30px 0px 30px 70px;
 }
-.letraf1 {
+.letraf1 {  /* css footter */
 	font-size: 14px;
 	margin: 35px;
 }
 .cajaf {
 	width: 200px;
-}
-input {
-	width: 200px;
-	padding: 13px;
-	font-size: 12px;
-	margin: 10px;
-	border-radius: 10px;
-	border:none;
-	background-color: #11090E;
 }
 .follow {
 	padding: 3px 8px;
